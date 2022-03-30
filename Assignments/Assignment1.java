@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Assignment1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        File dir = new File("C:\\Users\\shaik\\networking");
+        File dir = new File("C:\\Users\\shaik");
         String[] files = dir.list();
         while(true) {
             System.out.print("Enter file name: ");
